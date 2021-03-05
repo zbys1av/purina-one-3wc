@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    width: 1000px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-image: url(images/7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.header h1{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: start;
+    width: 300px;
+}
+
+.header p{
+    position: relative;
+    top: 11%;
+    left: 50%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: start;
+    width: 450px;
+}
+
+.header a{
+    position: relative;
+    top: 12%;
+    left: 50%;
+    text-decoration: none;
+    color: white;
+    border: 3px solid #038796;
+    background-color: #038796;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 7px #038796;
+    transition: 0.5s;
+}
+
+.header a:hover{
+    background-color: rgb(115, 211, 214);
+    border: 3px solid rgb(115, 211, 214);
+    transition: 0.5s;
+}
+
+main img{
+    padding: 5px 30px 5px 30px;
+    margin: 3px;
+}
+
+main h2{
+    padding: 5px 30px 5px 30px;
+    margin: 3px;
+}
+
+main p{
+    padding: 5px 30px 5px 30px;
+    margin: 3px;
+}
+
+.plate-1{
+    display: flex;
+}
+
+.plate-1 img{
+    height: 70px;
+    width: 170px;
+}
+
+.plate-1 .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-1 .right-side{
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-2{
+    display: flex;
+}
+
+.plate-2 img{
+    height: 100px;
+    width: 140px;
+}
+
+.plate-2 .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-2 .left-side{
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-3{
+    display: flex;
+}
+
+.plate-3 img{
+    height: 100px;
+    width: 70px;
+}
+
+.plate-3 .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-3 .right-side{
+    background-image: url(images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-4{
+    display: flex;
+}
+
+.plate-4 img{
+    height: 100px;
+    width: 140px;
+}
+
+.plate-4 .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-4 .left-side{
+    background-image: url(images/5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-5{
+    display: flex;
+}
+
+.plate-5 img{
+    height: 90px;
+    width: 140px;
+}
+
+.plate-5 .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+.plate-5 .right-side{
+    background-image: url(images/6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+}
+
+footer{
+    margin: 60px 0 0 0;
+}
+
+footer h2{
+    text-align: center;
+    margin: 0 0 20px 0;
+    line-height: 5px;
+}
+
+iframe{
+    height: 500px;
+    width: 100%;
+}
+
+.circle{
+    width: 3px;
+    height: 50px;
+    background-color: #1F1457;
+    border: 3px solid #1F1457;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 0 0 10px #1F1457;
+}
+
+.c1{
+    left: 48%;
+    top: 66%;
+}
+
+.c2{
+    left: 48%;
+    top: 99%;
+}
+
+.c3{
+    left: 48%;
+    top: 130%;
+}
+
+.c4{
+    left: 48%;
+    top: 162%;
+}
+
+.c5{
+    left: 48%;
+    top: 196%;
+}
